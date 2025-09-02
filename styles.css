@@ -1,4 +1,3 @@
-/* Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,16 +5,7 @@
 }
 
 body {
-    /* FONT OPTIONS - Change this line to switch fonts */
-    font-family: 'Inter', sans-serif; /* Current font */
-    /* Other options (uncomment one to use it):
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Oswald', sans-serif;
-    */
-    
+    font-family: 'Inter', sans-serif; 
     background-color: #1a1a1a;
     color: #ffffff;
     line-height: 1.6;
@@ -24,7 +14,7 @@ body {
     flex-direction: column;
 }
 
-/* Header */
+
 .header {
     padding: 2rem 0;
     text-align: center;
@@ -45,8 +35,6 @@ body {
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 0.5rem;
-    /* You can also set a different font for just the title */
-    /* font-family: 'Oswald', sans-serif; */
 }
 
 .tagline {
@@ -55,7 +43,6 @@ body {
     font-weight: 400;
 }
 
-/* Main Content */
 .main-content {
     flex: 1;
     max-width: 1200px;
@@ -108,7 +95,6 @@ body {
     font-weight: bold;
 }
 
-/* Server Stats */
 .server-stats {
     margin: 1.5rem 0;
     padding: 1rem;
@@ -166,7 +152,6 @@ body {
     text-decoration: none;
 }
 
-/* Footer */
 .footer {
     text-align: center;
     padding: 2rem;
@@ -180,7 +165,6 @@ body {
     font-size: 0.9rem;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;

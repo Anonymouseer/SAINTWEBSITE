@@ -1,0 +1,17 @@
+{
+  "name": "saint-website",
+  "version": "1.0.0",
+  "description": "Saint Server Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Build complete - static files ready'",
+    "preview": "npx serve ."
+  },
+  "keywords": ["saint", "discord", "server"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

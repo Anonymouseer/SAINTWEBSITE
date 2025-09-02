@@ -113,7 +113,7 @@ body {
 
 .stat-item i {
     font-size: 1.2rem;
-    color: #007bff;
+    color: #282c30;
 }
 
 .member-count {
@@ -129,7 +129,7 @@ body {
 }
 
 .action-btn {
-    background-color: #007bff;
+    background-color: #1f2022;
     color: #ffffff;
     border: none;
     padding: 1rem 2rem;
@@ -146,7 +146,7 @@ body {
 }
 
 .action-btn:hover {
-    background-color: #0056b3;
+    background-color: #cf1414;
     transform: translateY(-2px);
     color: #ffffff;
     text-decoration: none;

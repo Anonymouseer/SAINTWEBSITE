@@ -12,6 +12,9 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 

@@ -46,6 +46,17 @@ body {
     font-weight: 400;
 }
 
+.main-title .typing-text::after {
+    content: "";
+    animation: blink 0.7s infinite;
+    color: red;
+    font-weight: normal;
+}
+
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
 .main-content {
     flex: 1;
     max-width: 1200px;

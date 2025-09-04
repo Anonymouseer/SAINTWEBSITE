@@ -1,4 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const typingElement = document.querySelector('.typing-text');
+    if (typingElement) {
+        const textToType = "not found";
+        let i = 0;
+        function typeWriter() {
+            if (i < textToType.length) {
+                typingElement.textContent += textToType.charAt(i);
+                i++;
+                setTimeout(typeWriter, 200); 
+            }
+        }
+        setTimeout(typeWriter, 500);
+    }
+
     const actionButtons = document.querySelectorAll('.action-btn');
     actionButtons.forEach(button => {
         button.addEventListener('click', function() {

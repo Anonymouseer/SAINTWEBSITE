@@ -43,7 +43,7 @@ async function fetchDiscordMemberCount() {
     const memberCountElement = document.querySelector('.member-count');
     
     try {
-        const response = await fetch('https://discord.com/api/v10/invites/YKPcBTJ5?with_counts=true');
+        const response = await fetch('https://discord.com/api/v10/invites/cKhmsMTgsy?with_counts=true');
         const data = await response.json();
         
         if (data.approximate_member_count) {
